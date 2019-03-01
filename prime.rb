@@ -16,4 +16,5 @@ def inefficient_prime(integer)
     i += 1
   end
 end
-    
+
+inefficient_prime(7397)
