@@ -3,7 +3,7 @@ def prime(integer)
   results_array = []
   condition = true
   prime_numbers.each do |prime|
-    until condition == false || prime = "end"
+    until condition == false || prime == "end"
     if integer % prime == 0
       condition = false
     end
