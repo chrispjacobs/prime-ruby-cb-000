@@ -18,6 +18,7 @@ def inefficient_prime(integer)
 end
 condition
 end
+end
 
 
 puts inefficient_prime(7397)
