@@ -24,3 +24,5 @@ def inefficient_prime(integer)
 end
 condition
 end
+
+prime(73737)
