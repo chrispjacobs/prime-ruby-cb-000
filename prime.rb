@@ -6,7 +6,9 @@ def prime(integer)
     until condition == false
     if integer % prime == 0
       condition = false
+    end
   end
+end
 
 def inefficient_prime(integer)
   i = 2
