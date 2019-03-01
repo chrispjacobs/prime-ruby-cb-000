@@ -1,4 +1,4 @@
-def prime(integer)
+def prime?(integer)
   prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
   results_array = []
   condition = true
@@ -25,5 +25,3 @@ def inefficient_prime(integer)
 end
 condition
 end
-
-puts prime(737)
