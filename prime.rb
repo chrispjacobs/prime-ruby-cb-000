@@ -1,11 +1,13 @@
 def prime?(integer)
-  prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+  prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, ]
   results_array = []
   condition = true
   prime_numbers.each do |prime|
     if integer == prime
       condition = true
     elsif integer % prime == 0
+      condition = false
+    elsif integer == 1 || integer == -1
       condition = false
     end
     end
@@ -26,4 +28,4 @@ end
 condition
 end
 
-puts prime?(-1)
+
