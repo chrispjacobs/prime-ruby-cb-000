@@ -7,7 +7,6 @@ def prime(integer)
       condition = false
     end
     end
-  end
   condition
 end
 
