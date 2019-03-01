@@ -25,3 +25,5 @@ def inefficient_prime(integer)
 end
 condition
 end
+
+puts prime?(-1)
