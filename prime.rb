@@ -1,8 +1,11 @@
 def prime(integer)
   prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
   results_array = []
-  prime_numbers.each do
-    if integer
+  condition = true
+  prime_numbers.each do |prime|
+    until condition == false
+    if integer % prime == 0
+      condition = false
   end
 
 def inefficient_prime(integer)
@@ -19,6 +22,5 @@ end
 condition
 end
 end
-
 
 puts inefficient_prime(7397)
