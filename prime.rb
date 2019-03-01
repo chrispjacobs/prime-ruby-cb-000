@@ -22,5 +22,6 @@ end
 condition
 end
 end
+end
 
 puts inefficient_prime(7397)
