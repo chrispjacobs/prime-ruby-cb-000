@@ -2,7 +2,7 @@ def prime(integer)
   PRIME_NUMBERS = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
   results_array = []
   PRIME_NUMBERS.each do
-    if integer 
+    if integer
   end
 
 def inefficient_prime(integer)
