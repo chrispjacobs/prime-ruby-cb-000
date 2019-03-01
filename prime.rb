@@ -7,6 +7,7 @@ def prime(integer)
     if integer % prime == 0
       condition = false
     end
+    end
   end
 end
 
