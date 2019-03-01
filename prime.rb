@@ -7,14 +7,15 @@ def prime(integer)
 
 def inefficient_prime(integer)
   i = 2
-  condition = "neutral"
+  condition = true
   loop.do |integer|
-  until condition == false || i = 2000
+  until condition == false || i == 2000 || i == integer
   if integer % i == 0
     condition = false
   else
     i += 1
   end
+  condition
 end
 
-inefficient_prime(7397)
+puts inefficient_prime(7397)
