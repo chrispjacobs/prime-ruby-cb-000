@@ -24,4 +24,4 @@ end
 condition
 end
 
-prime(73737)
+puts prime(737)
